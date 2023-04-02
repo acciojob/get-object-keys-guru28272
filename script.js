@@ -3,7 +3,13 @@ let student = {
 	name: `guru`,
 	job: `SDE`,
 	experience: `fresher`
+
+	getKeys(student);
+}
+function getKeys(obj) {
+let keys = Object.keys(obj)
+return keys;
+	
 }
 
-let keys = Object.keys(student)
-return keys;
+student.getKeys;
